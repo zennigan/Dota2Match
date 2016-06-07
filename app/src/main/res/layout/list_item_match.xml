@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:padding="@dimen/padding"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/list_item_match_id_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/big_textsize"
+                android:textStyle="bold"
+                tools:text="1234567890"/>
+
+
+            <TextView
+                android:id="@+id/list_item_win_result_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/list_item_match_id_textView"
+                tools:text="Radiant Win"/>
+
+            <TextView
+                android:id="@+id/list_mode_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingEnd="@dimen/activity_horizontal_margin"
+                android:layout_below="@+id/list_item_win_result_textView"
+                tools:text="Normal"/>
+
+            <TextView
+                android:id="@+id/list_lobby_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/list_mode_textView"
+                tools:text="Lobby A"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_item_date_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            tools:text="04/06/2016"/>
+        <TextView
+            android:id="@+id/list_item_duration_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:text="60"/>
+    </LinearLayout>
+
+</LinearLayout>

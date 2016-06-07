@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Dota2Match</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_admob">Advertisement</string>
+    <string name="permission_external_storage_denied">Permission to access External Storage has been denied.</string>
+    <string name="action_share">Share</string>
+    <string name="signin_status">signin_status</string>
+    <string name="action_proceed">Proceed to app</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_sign_out">Sign Out</string>
+    <string name="msg_signed_in">Signed in as %1$s!</string>
+    <string name="msg_signedout">Signed Out.</string>
+    <string name="loading">Loading...</string>
+
+
+    <string name="screenshot_filename">D2M_%1$s.png</string>
+    <string name="api_key"></string>
+    <string name="api_lang">EN</string>
+
+
+    <string name="empty_widget">No information available</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="match_id_lbl">Match ID: %1$s</string>
+    <string name="radiant_win">Radiant Victory</string>
+    <string name="dire_win">Dire Victory</string>
+    <string name="level_lbl">Hero Level</string>
+    <string name="kills_lbl">Kills</string>
+    <string name="deaths_lbl">Deaths</string>
+    <string name="assists_lbl">Assists</string>
+    <string name="kda_separator">/</string>
+    <string name="anonymous">Anonymous</string>
+
+    <string name="lobby_type_unknown">Unknown</string>
+    <string name="lobby_type_0">Public matchmaking</string>
+    <string name="lobby_type_1">Practice</string>
+    <string name="lobby_type_2">Tournament</string>
+    <string name="lobby_type_3">Tutorial</string>
+    <string name="lobby_type_4">Co-op with bots</string>
+    <string name="lobby_type_5">Team match</string>
+    <string name="lobby_type_6">Solo Queue</string>
+    <string name="lobby_type_7">Ranked</string>
+    <string name="lobby_type_8">Solo Mid 1vs1</string>
+
+    <string name="game_mode_unknown">Unknown</string>
+    <string name="game_mode_0">None</string>
+    <string name="game_mode_1">All Pick</string>
+    <string name="game_mode_2">Captains Mode</string>
+    <string name="game_mode_3">Random Draft</string>
+    <string name="game_mode_4">Single Draft</string>
+    <string name="game_mode_5">All Random</string>
+    <string name="game_mode_6">Intro</string>
+    <string name="game_mode_7">Diretide</string>
+    <string name="game_mode_8">Reverse Captains Mode</string>
+    <string name="game_mode_9">Greeviling</string>
+    <string name="game_mode_10">Tutorial</string>
+    <string name="game_mode_11">Mid Only</string>
+    <string name="game_mode_12">Least Played</string>
+    <string name="game_mode_13">New Player Pool</string>
+    <string name="game_mode_14">Compendium Matchmaking</string>
+    <string name="game_mode_16">Captains Draft</string>
+
+
+    <!-- SyncAdapter related -->
+    <string name="sync_account_type">dota2match.zennigan.com</string>
+    <string name="content_authority">app.com.zennigan.android.dota2match</string>
+</resources>

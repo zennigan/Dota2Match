@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "430127197916",
+    "project_id": "dota2match-af86c"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430127197916:android:81eecfff78c36c29",
+        "android_client_info": {
+          "package_name": "app.com.zennigan.android.dota2match"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430127197916-gve8u68hcg6okckovb0pt6vd7v3nm3je.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.com.zennigan.android.dota2match",
+            "certificate_hash": "2B46F8E5CDD41CBA0CBB5536B465425EA496096D"
+          }
+        },
+        {
+          "client_id": "430127197916-btm19ist8o012g1ud9ka8ucv03p75530.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKJWvP3Yu90LCUMdmmdo8XXpWp1C-D7oo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

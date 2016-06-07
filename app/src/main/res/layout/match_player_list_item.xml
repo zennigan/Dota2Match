@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+		
+    <TextView
+            android:id="@+id/hero_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:visibility="gone"/>
+			
+	<de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/hero_ic"
+        android:layout_width="@dimen/ic_width"
+        android:layout_height="@dimen/ic_height"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:foregroundGravity="center_horizontal"
+        app:civ_border_width="@dimen/ic_border_width"/>
+
+		
+    <TextView
+            android:id="@+id/account_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_toRightOf="@+id/hero_ic"
+            android:layout_toEndOf="@+id/hero_ic"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:textStyle="bold"
+            android:textSize="@dimen/big_textsize"  />
+			
+    <TextView
+            android:id="@+id/level_lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_below="@+id/account_name"
+            android:layout_toRightOf="@+id/hero_ic"
+            android:layout_toEndOf="@+id/hero_ic"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:text="@string/level_lbl"
+            android:textSize="@dimen/small_textsize" />
+			
+    <TextView
+            android:id="@+id/level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_below="@+id/account_name"
+			android:layout_toRightOf="@+id/level_lbl"
+            android:layout_toEndOf="@+id/level_lbl"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:textSize="@dimen/small_textsize" />
+    </RelativeLayout>
+
+        <TextView
+            android:id="@+id/kills"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/extra_big_textsize"
+			android:padding="@dimen/padding"/>	
+			
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/extra_big_textsize"
+			android:text="@string/kda_separator"/>
+			
+        <TextView
+            android:id="@+id/deaths"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/extra_big_textsize"
+			android:padding="@dimen/padding"/>
+					
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/extra_big_textsize"
+			android:text="@string/kda_separator"/>
+			
+        <TextView
+            android:id="@+id/assists"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/extra_big_textsize"
+			android:padding="@dimen/padding"/>
+
+    </LinearLayout>
